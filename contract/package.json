@@ -1,0 +1,21 @@
+{
+  "name": "ln-zksync-contract",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "build": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "keywords": [],
+  "author": "corollari",
+  "license": "MIT",
+  "devDependencies": {
+    "truffle": "^5.1.42"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0"
+  }
+}
